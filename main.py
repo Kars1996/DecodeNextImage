@@ -1,6 +1,13 @@
 from urllib.parse import urlparse, parse_qs, unquote
 import pyperclip
 
+"""
+Copyright © 2025 Kars (github.com/kars1996)
+
+Not to be shared, replicated, or used without prior consent.
+Contact me for any enquiries
+"""
+
 def decode_url(url: str) -> str:    
     parsed = urlparse(url)
     query_params = parse_qs(parsed.query)
